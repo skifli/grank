@@ -1,4 +1,4 @@
-> **Note** This is an archive of the final version of **Grank**, my *Dank Memer self-bot*, before it was discontinued. The links are still for my old account but I will never change them, because this is meant to be an archive.
+> **Note** This is an archive of the final version of **Grank**, my *Dank Memer self-bot*, before it was discontinued. The code is now outdated and does not work, and the links are still for my old account. However I will never change the links, because this is meant to be an archive. You can see the last ever archive of the repository [here](https://web.archive.org/web/20220705015706/https://github.com/didlly/grank).
 
 <details>
 
