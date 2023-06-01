@@ -1,0 +1,216 @@
+commands:
+  adventure: True
+  beg: True
+  daily: True
+  dig: True
+  fish: True
+  guess: False
+  highlow: True
+  hunt: True
+  postmeme: True
+  trivia: True
+  vote: True
+  work: True
+
+crime:
+  enabled: True
+  random: True
+
+  preferences:
+    tax evasion: True
+    vandalism: True
+
+search:
+  enabled: True
+  random: True
+
+  preferences:
+    Gods own place: True
+    bank: True
+
+lottery:
+  enabled: False
+  cooldown: 3600
+
+stream:
+  enabled: True
+  ads: True
+  chat: True
+  donations: True
+
+blackjack:
+  enabled: False
+  random: False
+  amount: 1500
+  minimum: 1500
+  maximum: 3000
+
+snakeeyes:
+  enabled: False
+  random: False
+  amount: 1500
+  minimum: 1500
+  maximum: 3000
+
+cooldowns:
+  adventure: 120
+
+  beg:
+    default: 35
+    patron: 25
+
+  blackjack:
+    default: 10
+    patron: 5
+
+  crime:
+    default: 35
+    patron: 15
+
+  daily: 23402
+
+  dig:
+    default: 35
+    patron: 25
+
+  fish:
+    default: 35
+    patron: 25
+
+  guess: 62
+
+  highlow:
+    default: 30
+    patron: 15
+
+  hunt:
+    default: 35
+    patron: 25
+
+  postmeme:
+    default: 40
+    patron: 30
+
+  search:
+    default: 25
+    patron: 15
+
+  snakeeyes:
+    default: 8
+    patron: 5
+
+  stream: 602
+
+  trivia:
+    default: 5
+    patron: 3
+    
+  vote: 43202
+  work: 3602
+
+  commands:
+    enabled: False
+    value: 0.5
+
+custom commands:
+  enabled: False
+  
+  pls dep max:
+    enabled: True
+    cooldown: 300
+
+shifts:
+  enabled: False
+
+  1:
+    enabled: True
+    active: 7200
+    passive: 3600
+    variation: 60
+
+  2:
+    enabled: True
+    active: 3600
+    passive: 7200
+    variation: 60
+  
+auto buy:
+  enabled: True
+  shovel: True
+  fishing pole: True
+  hunting rifle: True
+  keyboard: True
+  mouse: True
+  adventure ticket: True
+
+auto trade:
+  enabled: False
+  trader token: None
+  bank note: True
+  tidepod: True
+
+auto accept trade:
+  enabled: False
+  traders: [0, 0]
+
+auto sell:
+  enabled: False
+  apple: True
+  common fish: True
+
+typing indicator:
+  enabled: False
+  minimum: 0
+  maximum: 0.5
+
+message delay:
+  enabled: False
+  minimum: 0
+  maximum: 0.5
+
+button delay:
+  enabled: False
+  minimum: 0
+  maximum: 0.5
+
+dropdown delay:
+  enabled: False
+  minimum: 0
+  maximum: 0.5
+
+anti heist:
+  enabled: True
+
+auto join heist:
+  enabled: False
+
+auto start:
+  enabled: False
+  channel: 0
+
+blacklisted servers:
+  enabled: False
+  servers: [0, 0]
+
+settings:
+  prefix: ["grank"]
+  timeout: 5
+  patron: False
+
+events:
+  enabled: True
+
+  attack the boss by clicking disenfect: True
+  windows sucks lol: True
+  why my pls rich no work: True
+  f: True
+  frick off karen: True
+  attack the boss by clicking jerk: True
+
+logging:
+  debug: True
+  warning: True
+  
+  webhook logging:
+    enabled: False
+    url: https://discord.com/api/webhooks/
